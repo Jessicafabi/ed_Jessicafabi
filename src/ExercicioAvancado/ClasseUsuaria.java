@@ -45,10 +45,8 @@ public class ClasseUsuaria {
               
               System.out.println("Digite um nome para buscar:");
               
-              arr.findByIdade(entrada.nextInt());
-              
-              if (!arr.findByIdade(entrada.nextLine()))
-                  System.out.println("Não encontrado nenhuma idade!!");
+              if (!arr.find(entrada.nextLine()))
+                
               
               
               arr.display();

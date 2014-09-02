@@ -41,7 +41,7 @@ class EstruturaExercicioAvancado  //Criamos aqui nossa classe EstruturaVetor
          {
          curIn = (lowerBound + upperBound ) / 2;
          if(a[curIn].getIdade()==searchKey)
-             
+         {   
              for (int i = curIn; (a[i].getIdade() == searchKey); i++) { //mudado p/desafio
                  a[i].displayPessoa(); //mudado p/ imprimir todos os dados da pessoa
                  System.out.println("==============================================");
