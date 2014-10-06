@@ -70,4 +70,33 @@ public class Exercicio06
             }
         }
     }
+    public class Pacientes 
+{
+    private String nome;
+    private int prioridade;
+    
+    public Pacientes (String n, int p) //método construtor
+    {
+        nome = n;
+        prioridade = p;
+    }
+    
+    public void displayPaciente()
+    {
+        System.out.println("Nome do Paciente: " + nome);
+        System.out.println("Prioridade: " + prioridade);
+    }
+    
+    
+    public String getNome()           
+    { 
+        return nome; 
+    }
+   
+    public int getPrioridade()           
+    { 
+        return prioridade; 
+    }
+}
+
 }
