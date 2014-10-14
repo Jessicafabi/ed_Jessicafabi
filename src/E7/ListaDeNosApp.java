@@ -36,7 +36,7 @@ class ListaDeNosApp
          fLink.displayNo();
          System.out.println("");
       }*/
-      theList.displayList();   
+    
       if(theList.find("Cristiane") != null)
       {
           System.out.println("\n"+"Encontrado!!!");
