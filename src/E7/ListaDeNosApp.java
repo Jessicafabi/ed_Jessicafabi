@@ -39,11 +39,11 @@ class ListaDeNosApp
       theList.displayList();   
       if(theList.find("Cristiane") != null)
       {
-          System.out.println("\n"+"Encontrado!");
+          System.out.println("\n"+"Encontrado!!!");
       }
       else
       {
-          System.out.println("\n"+"Não encontrado!");
+          System.out.println("\n"+"Não encontrado!!!");
       }
 // mostramos a lista
       }  // final do método main()
