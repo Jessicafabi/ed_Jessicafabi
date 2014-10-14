@@ -121,7 +121,7 @@ class EstruturaExercicioAvancado  //Criamos aqui nossa classe EstruturaVetor
 //--------------------------------------------------------------
 //Método de inserção ORDENADA com idade!!! ....
 //--------------------------------------------------------------
-    public void insert( String n, double al, int id )    // insere o elemento no vetor
+    public void insert( String n, float al, int id )    // insere o elemento no vetor
       {
       int j;
       for(j=0; j<nElems; j++)        // localiza onde esse elemento se encaixa
@@ -139,7 +139,7 @@ class EstruturaExercicioAvancado  //Criamos aqui nossa classe EstruturaVetor
 //Método de remoção ....
 //--------------------------------------------------------------
   
-    public boolean delete(int value)
+   /* public boolean delete(int value)
       {
       int j = findByIdade(value);           //Utiliza a busca binária para remover!!!
       if(j==nElems)                  // caso não encontre, retorna false!
@@ -151,7 +151,7 @@ class EstruturaExercicioAvancado  //Criamos aqui nossa classe EstruturaVetor
          nElems--;                   // decrementa o tamanho
          return true;
          }
-      }  // finaliza remoção
+      }  // finaliza remoção*/
 
 //--------------------------------------------------------------
 //Método de visualização ....
