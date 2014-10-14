@@ -41,11 +41,10 @@ class ListaDeNosApp
       {
           System.out.println("\n"+"Encontrado!!!");
       }
-      else
+      else                                                // mostramos a lista
       {
           System.out.println("\n"+"Não encontrado!!!");
       }
-// mostramos a lista
       }  // final do método main()
    }  // final da classe usuária
 ////////////////////////////////////////////////////////////////
